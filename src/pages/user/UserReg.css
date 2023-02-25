@@ -1,0 +1,29 @@
+.reg_container {
+  display: flex;
+  flex-direction: column;
+  height: 650px;
+  align-items: center;
+  justify-content: center;
+}
+
+.reg_head {
+  margin: 30px 7px;
+}
+
+.reg_input {
+  padding: 6px 45px;
+  margin-bottom: 20px;
+}
+
+.reg_btn {
+  padding: 2px 56px;
+  font-size: 120%;
+  background: #0071c2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+.reg_btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

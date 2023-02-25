@@ -1,0 +1,29 @@
+.login_container {
+  display: flex;
+  flex-direction: column;
+  height: 650px;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_head {
+  margin: 30px 7px;
+}
+
+.login_input {
+  padding: 6px 45px;
+  margin-bottom: 20px;
+}
+
+.login_btn {
+  padding: 2px 97px;
+  font-size: 120%;
+  background: #0071c2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+.login_btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

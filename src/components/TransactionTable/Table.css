@@ -1,0 +1,47 @@
+.trans_container {
+  margin: 10rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(184, 173, 173);
+  border-collapse: collapse;
+  margin: 10px;
+}
+
+th,
+td {
+  padding: 30px;
+  text-align: center;
+}
+
+th {
+  background-color: #32a4c1;
+  color: white;
+}
+
+.statusBooked {
+  padding: 4px;
+  border-radius: 5px;
+  background-color: #f69685;
+  color: #528a58;
+}
+
+.statusCheckin {
+  padding: 4px;
+  border-radius: 5px;
+  background-color: #39d139;
+  color: #528a58;
+}
+
+.statusCheckout {
+  padding: 4px;
+  border-radius: 5px;
+  background-color: #d3d0f2;
+  color: #528a58;
+}
